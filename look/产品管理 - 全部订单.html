@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>鹿客微信小程序</title>
+    <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css?v=1.01.171218" rel="stylesheet">
+  
+</head>
+<body>
+    <div class="wrapper has-submenu">
+        <header class="main-header"> 
+            <!-- Logo --> 
+            <div class="page-brand">
+                <a class="logo" href="/">
+                    <img src="images/logo.png" alt="鹿客">
+                </a>
+            </div>
+            <!-- nav-->
+            <div class="pull-left">
+                <ul class=" nav-xl">
+                    <li class="selected"><a href="#">小程序</a></li>
+                </ul>
+            </div>
+            
+            <div class="navbar-custom-menu pull-right">
+                <ul class="nav navbar-nav">
+                    <!-- Messages: style can be found in dropdown.less-->
+                    <li class=""> 
+                        <a href="#" class="">
+                            <em class="icon24 icon24-header-help"></em>
+                        </a>
+                    </li>
+                    <!-- Messages: style can be found in dropdown.less-->
+                    <li class=""> 
+                        <a href="#" class="">
+                            <em class="icon24 icon24-header-message"></em>
+                        </a>
+                    </li>
+                    <!-- User Account: style can be found in dropdown.less -->
+                    <li class="dropdown dropdown-user">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="images/avator.png" class="user-image" alt="User Image">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="profile.html"><i class="ti-user"></i>Profile</a></li>
+                            <li><a href="profile.html"><i class="ti-settings"></i>Settings</a></li>
+                            <li><a href="javascript:;"><i class="ti-support"></i>Support</a></li>
+                            <li class="divider"></li>
+                            <li><a href="login.html"><i class="fa fa-power-off"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+
+
+        <aside class="main-sidebar"> 
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <ul class="nav side-menu ">
+                    <li><a href="#"><i class="sidebar-item-icon sidebar-item-icon-dashboard"></i><span class="nav-label">概览</span></a></li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="sidebar-item-icon sidebar-item-icon-list"></i>
+                            <span class="nav-label">小程序列表</span>
+                            <i class="fa fa-angle-left arrow"></i>
+                        </a>
+                        <ul class="nav nav-2-level collapse" aria-expanded="false">
+                            <li><a href="#">Products board</a></li>
+                            <li><a href="#">Products list</a></li>
+                            <li><a href="#">Product edit</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+        </aside>
+        
+        <aside class="sub-side">
+            dss
+        </aside>
+
+
+        <div class="content-wrapper">
+            <section class="page-content">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <!-- 内容开始 -->
+                        
+                        <div class="table-orders">
+                                <ul>
+                                        <li  class="action">全部订单  </li>  
+                                        <li  class="no-action">待支付  </li>
+                                        <li class="no-action"> 待发货 </li>
+                                        <li class="no-action"> 待收货  </li>
+                                        <li class="no-action"> 已完成  </li>
+                                </ul>
+                                <div  class="search">
+                                    <div> <input class="seach-d" type="text" value="选择下单日期"><img class="diary-ico"   src="images/diary.png"> </div>
+                                    <div> <input type="text" value="订单编号/商品名称/收货人"><img class="search-ico" src="images/2.png"> </div>
+                                </div>
+                                <table  class="udo-t">     
+                                   <thead>
+                                      <tr>
+                                         <th class="udo-prdname " style="text-align:center;">商品</th>
+                                         <th class="udo-price  "  >单价（元）</th>
+                                           <th  class="udo-count ">数量</th>
+                                          <th  class="udo-user  ">收货人</th>
+                                          <th class="udo-total  ">订单总额</th>
+                                           <th class="udo-status  ">状态</th>
+                                         <th  class="udo-operation  ">操作</th>
+                                      </tr>
+                                   </thead>
+                                </table>
+                                <table class="udo-des" >
+                                     <thead>
+                                           <tr><td  colspan="7"> 订单编号：<span>20171405546622</span>
+                                             <span>下单时间：2017-11-15 16:30</span></td> </tr>                                    
+                                      </thead>
+                                     <tbody  >
+                                        <tr>
+                                            <td class="udo-prdname"><a href="#" ><div  ><img src="images/pro-luke.jpg" alt="鹿客"><span>鹿客</span></div></a></td>
+                                            <td class="udo-price">5600</td>
+                                            <td class="udo-count">1 </td>
+                                            <td class="udo-user">王先生</td>
+                                            <td class="udo-total">5600</td>
+                                            <td class="udo-status">已完成</td>
+                                            <td class="udo-operation"><p>发货<span></span></p><a href="#"><span>订单详情</span></a></td>
+                                       </tr>
+                                        </tbody>
+                                 </table>
+                                 <table class="udo-des" >
+                                        <thead>
+                                               <tr><td colspan="7"><span>订单编号：20171405546622</span>
+                                                   <span>下单时间：2017-11-15 16:30</span></td> </tr>                                      
+                                         </thead>
+                                          <tbody  >
+                                           <tr>
+                                                <td class="udo-prdname" ><a href="#" ><div  ><img src="images/pro-dianjing.jpg" alt="小鹿点睛助手"><span>小鹿点睛助手</span></div></a></td>
+                                                <td class="udo-price">5600</td>
+                                                <td class="udo-count">1</td>
+                                                <td class="udo-user">王先生</td>
+                                                <td class="udo-total">5600</td>
+                                                <td class="udo-status">已完成</td>
+                                                <td class="udo-operation"><a href="#">订单详情</a></td>
+                                           </tr>
+                                           </tbody>
+                                    </table>
+                        
+                        
+                    
+                                        <table class="udo-des" >
+                                               <thead>
+                                                      <tr><td colspan="7">订单编号：<span>20171405546622</span>
+                                                          <span>下单时间：2017-11-15 16:30</span></td> </tr>                                      
+                                                </thead>
+                                                 <tbody  >
+                                                    <tr>
+                                                        <td class="udo-prdname"><a href="#" ><div  ><img src="images/pro-wolong.jpg" alt="小鹿卧龙助手"><span>小鹿卧龙助手</span></div></a></td>
+                                                        <td class="udo-price">5600</td>
+                                                        <td class="udo-count">1</td>
+                                                        <td class="udo-user">王先生</td>
+                                                        <td class="udo-total">5600</td>
+                                                        <td class="udo-status">已完成</td>
+                                                        <td class="udo-operation"><a href="#">订单详情</a></td>
+                                                   </tr>
+                                                  </tbody>
+                                           </table>
+
+                                           <div class="page-num">
+                                               <div class="page-total "><span>共18条数据</span></div>
+                                               <ul>
+                                                   <li class="page-previous">上一页 </li>
+                                                   <li class="page-item active">1</li>
+                                                   <li class="page-item">2 </li>
+                                                   <li class="page-item">3 </li>
+                                                   <li class="page-item">4</li>
+                                                   <li class="page-item">5 </li>
+                                                   <li class="page-more">... </li>
+                                                   <li class="page-next">下一页</li>
+                                            </ul>
+                                           </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                        <!-- 内容结束 -->
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+<script src="plugins/jquery/jquery-1.12.4.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap-hover-dropdown.min.js"></script>
+<script src="plugins/layer/layer.js"></script>
+<script src="js/core.js"></script>
+
+
+
+</body>
+</html>

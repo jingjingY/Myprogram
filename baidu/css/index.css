@@ -1,0 +1,109 @@
+body,nav,div,p,span,a,li,ul,img{
+    padding:0px;
+    margin:0px;  
+}
+ul,ol,li{   
+    list-style:none;    
+}
+.nav{
+    display: block;
+    float:right;  
+    margin-top:10px;
+
+}
+
+.nav  li{
+    float:left;
+    margin-right:20px;
+    font-weight: bold;
+    font-size:13px;
+}
+
+.nav li a{
+    
+    color:#000;
+   
+    text-decoration:underline;
+}
+.nav  li a:hover{
+  
+    color:rgb(13, 0, 197);
+  
+    text-decoration:underline;
+}
+.nav  .set{
+    font-weight:normal;
+} 
+.nav   .login{
+    font-weight:normal;
+}
+.nav  .more{
+    
+    padding:2px ;
+    color:#fff;
+    background-color:rgba(26, 92, 236, 0.8);
+}
+.nav  .more a{
+    text-decoration:none;
+}
+
+.nav:after{
+    clear:both;
+    content:" ";
+    display:block;
+   }
+
+
+.baidu-logo{
+  display: block;
+  position: relative;
+  border:1px solid red;
+  width:212px;
+  display: block;
+  margin:0 auto;
+  margin-top:10px;
+  padding-top:144px;
+   
+}
+.baidu-logo{
+    
+  
+
+}
+.baidu-logo img{
+ 
+    border:0;
+    width:212px;
+}
+form{
+    margin:0 auto;
+  text-align: center;
+    height:36px;
+    margin-top:38px;
+}
+form .shuru{
+    width:540px;
+    height:36px;
+    border:1px solid #3385FF;
+    padding:8px;
+}
+form .tijiao{
+    border:none;
+    width:100px;
+    height:36px;
+    margin-left:0px;
+    background-color:#3385FF;
+    color:#fff; 
+}
+form div{
+    width:18px;
+    height:19px;
+    border:1px solid red;
+ 
+    background-image:url( ../images/camera_new_5606e8f.png) ;
+    background-position: 0px -19px;
+    margin-top:-20px;
+    margin-left:550px;
+    z-index: 2;
+
+}

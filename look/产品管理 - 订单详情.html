@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>鹿客微信小程序</title>
+    <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css?v=1.01.171218" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper has-submenu">
+        <header class="main-header"> 
+            <!-- Logo --> 
+            <div class="page-brand">
+                <a class="logo" href="/">
+                    <img src="images/logo.png" alt="鹿客">
+                </a>
+            </div>
+            <!-- nav-->
+            <div class="pull-left">
+                <ul class=" nav-xl">
+                    <li class="selected"><a href="#">小程序</a></li>
+                </ul>
+            </div>
+            
+            <div class="navbar-custom-menu pull-right">
+                <ul class="nav navbar-nav">
+                    <!-- Messages: style can be found in dropdown.less-->
+                    <li class=""> 
+                        <a href="#" class="">
+                            <em class="icon24 icon24-header-help"></em>
+                        </a>
+                    </li>
+                    <!-- Messages: style can be found in dropdown.less-->
+                    <li class=""> 
+                        <a href="#" class="">
+                            <em class="icon24 icon24-header-message"></em>
+                        </a>
+                    </li>
+                    <!-- User Account: style can be found in dropdown.less -->
+                    <li class="dropdown dropdown-user">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="images/avator.png" class="user-image" alt="User Image">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><a href="profile.html"><i class="ti-user"></i>Profile</a></li>
+                            <li><a href="profile.html"><i class="ti-settings"></i>Settings</a></li>
+                            <li><a href="javascript:;"><i class="ti-support"></i>Support</a></li>
+                            <li class="divider"></li>
+                            <li><a href="login.html"><i class="fa fa-power-off"></i>Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+
+
+        <aside class="main-sidebar"> 
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <ul class="nav side-menu ">
+                    <li><a href="#"><i class="sidebar-item-icon sidebar-item-icon-dashboard"></i><span class="nav-label">概览</span></a></li>
+                    <li>
+                        <a href="javascript:;">
+                            <i class="sidebar-item-icon sidebar-item-icon-list"></i>
+                            <span class="nav-label">小程序列表</span>
+                            <i class="fa fa-angle-left arrow"></i>
+                        </a>
+                        <ul class="nav nav-2-level collapse" aria-expanded="false">
+                            <li><a href="#">Products board</a></li>
+                            <li><a href="#">Products list</a></li>
+                            <li><a href="#">Product edit</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </section>
+        </aside>
+        
+        <aside class="sub-side">
+            dss
+        </aside>
+
+
+        <div class="content-wrapper">
+            <section class="page-content">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <!-- 内容开始 -->
+                        <div class="order-box">
+                            <div class="order-title">
+                                <span>订单详情</span>
+                                <div class="back">
+                                   <a href="#">
+                                     <img src="images/back.png" >
+                                     <span>返回上一步 
+                                     </span>
+                                 </a>
+                                </div>
+                            </div>
+  
+                          <dl class="order-detail">
+                            <dt> <span class="font-gray">订单编号：</span>
+                                <span class="font-black">201800367667</span>
+                                <span class="space font-gray">下单时间:</span>
+                                <span  class="font-black"> 2018-12-30 16:00</span>
+                            </dt>
+                            <dd> 
+                                <div class="order-status"><span class="font-gray">订单状态：</span>
+                                <span class="font-black">待发货</span></div>
+                                <div class="btn-sent"> 发货</div>
+                            </dd> 
+                            <dd>     
+                                 <span class="font-gray">收货信息：</span>
+                                 <span class="font-black">王先生</span>
+                                 <span class="font-black">19600888897</span>
+                                 <span class="font-black">河南省郑州市高新区科学大道中原广告产业园</span>
+                            </dd> 
+                            <dd>          
+                                 <span class="font-gray">卖家留言:</span>
+                                 <span class="font-black">发顺丰快递</span>
+                             
+                            </dd> 
+                            <dd > 
+                                 <div class="order-total" >
+                                 <span class="font-gray">订单总额:</span>
+                                 <span class="font-orange">￥99.00</span></div>
+                             
+                            </dd>  
+                        </dl>
+                        <table class="goods-detail">
+                                <thead><tr><td colspan="4"> 
+                                   <span class="font-black">商品信息
+                                   <span class="space font-gray">卖家留言：</span> <span  class="font-balck">发顺丰快递</span>
+                                </td></tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="goods-name font-gray">商品 </td>
+                                        <td class="goods-price font-gray">单价(元) </td> 
+                                        <td class="goods-count font-gray">数量 </td>
+                                        <td class="goods-total font-gray">小计 </td>
+                                    </tr>
+                                    <tr>
+                                            <td class="goods-name"><div><img src="images/pro-luke.jpg"> &nbsp;&nbsp;<span>鹿客</span></div></td>
+                                            <td class="goods-price">￥99.00 </td> 
+                                            <td class="goods-count">1 </td>
+                                            <td class="goods-total">99.00 </td>
+                                    </tr>
+                                    <!-- <tr>
+                                            <td class="goods-name"><div><img src="images/pro-luke.jpg"> &nbsp;&nbsp;<span>鹿客</span></div></td>
+                                            <td class="goods-price">￥99.00 </td> 
+                                            <td class="goods-count">1 </td>
+                                            <td class="goods-total">99.00 </td>
+                                    </tr> -->
+                                 </tbody>
+                                <tfoot>
+                                    <tr> <td colspan="4"> 
+                                        <div  >
+                                            <p >共1件商品  金额：￥99.00</p>
+                                            <p >优惠金额：￥0</p>
+                                            <p >订单总额：<span >￥99.00</span></p>
+                                        </div>
+                                    </td></tr>
+                                </tfoot>
+     
+                            </table>
+                            
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+                        <!-- 内容结束 -->
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+<script src="plugins/jquery/jquery-1.12.4.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="plugins/bootstrap/js/bootstrap-hover-dropdown.min.js"></script>
+<script src="plugins/layer/layer.js"></script>
+<script src="js/core.js"></script>
+
+
+
+</body>
+</html>
